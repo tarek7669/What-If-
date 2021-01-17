@@ -1,0 +1,87 @@
+*
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body
+{
+    background-image: url("backgroundSignUp.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 8px 0 0 0;
+}
+
+fieldset
+{
+	text-transform: capitalize;
+	border-style: none;
+	padding: 5%;
+	/*background: rgba(0,0,0,0.8);*/
+}
+
+h2
+{
+	margin-left: 36%;
+	padding: 3% 10px 0px 10px;
+	font-size: 1.4em;
+	color: white;
+}
+
+form
+{
+	margin: 7% 30%;
+	background: rgba(0,0,0,0.8);
+	border-radius: 10px;
+}
+
+input[type="text"], input[type="password"], input[type = "date"]
+{
+	margin-bottom: 5%;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	color: white;
+	width: 200px;
+}
+
+input[type="submit"]
+{
+	margin-top: 5%;
+	background: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    background: #d57149;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+label
+{
+	color: white;
+}
+
+label[id = "emailLabel"]
+{
+	padding-right: 25px;
+}
+
+label[id = "passwordLabel"]
+{
+	padding-right: 5px;
+}
+
+label[id = "birthLabel"]
+{
+    background-color: transparent;
+}
+
+.logo
+{
+	padding-left: 44%;
+	float: left;
+	width: 50px;
+	height: 50px;
+}

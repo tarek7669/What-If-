@@ -1,0 +1,22 @@
+* 
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.container
+{
+	margin: 41px 100px 0px;
+}
+
+.commentInput
+{
+	margin-left: 23px;
+	width: 50%;
+	height: 25px;
+}
+
+.commentButton
+{
+	width: 100px;
+	height: 30px;
+}
