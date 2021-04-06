@@ -15,19 +15,21 @@
 	<div class="box">
 	  <img src="logo.png" class = "logoForm">
       <h2>Login</h2>
-      <form action="" method="post">
+      <form name = "form" method="post">
         <div class="inputbox">
-          <input type="text" name="username" required="">
+          <input id = "user" type="text" name="username" required="">
           <label>Username</label>
         </div>
         <div class="inputbox">
-          <input type="password" name="password" required="">
+          <input id = "pass" type="password" name="password" required="">
           <label>Password</label>
         </div>
-        <input type="submit" name="submit" value="Log in">
+        <input type="submit" name="submit" value="Log in" onclick="login();">
         <a href="Register.html"><input type="button" name="register" class="register" value="Sign up"></a>
       </form>
     </div>
+
+    <script type="text/javascript" src="test.js"></script>
 
 </body>
 

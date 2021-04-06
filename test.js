@@ -1,12 +1,32 @@
-var mysql = require ('mysql');
+function login(){
+  
+  var user = document.form.username.value,
+      pass = document.form.password.value;
 
-var con = mysql.createConnection({
-  host: "localhost",
-  user: "hr",
-  password: "hr"
-});
+  var admin="admin";
+  var passadmin="admin";
 
-con.connect(function(err) {
-  if (err) throw err;
-  console.log("Connected!");
-});
+  if (document.form.username.value == admin && document.form.password.value == passadmin) { {
+    
+      alert("ghalat akbar ghalat");
+      window.location.assign("index.html");
+  }
+
+  else if(user=="")
+  {
+    alert("Please enter your username");
+    document.form.username.focus();
+  }
+
+  else if(pass=="")
+  {
+    alert("Please enter your password");
+    document.form.password.focus();
+  }
+
+  else
+  {
+    alert("Welcome");
+    document.location.assign("Index.html");
+  }
+}
