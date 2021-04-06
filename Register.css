@@ -181,8 +181,8 @@
 	body
 	{
 	    background-image: url("akatsuki.jpg");
-	    background-repeat: round;
-	    background-size: all;
+	    background-repeat: no-repeat;
+	    background-size: fill;
 	    margin: 8px 0 0 0;
 	}
 
